@@ -35,6 +35,7 @@ section {
   }
   p {
     display: block;
+    font: 400 15px Roboto;
     color: #757575;
   }
 }

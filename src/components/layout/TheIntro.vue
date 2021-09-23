@@ -25,6 +25,7 @@ export default {
   flex-direction: column;
   box-shadow: 0 0 20px #eee;
   background-color: #fafafa;
+  padding-bottom: 20px;
 
   .end-section-roll {
     width: 95%;
