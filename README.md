@@ -1,4 +1,4 @@
-# my-cv
+# My Personal CV v2
 
 ## Project setup
 ```
