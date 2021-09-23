@@ -33,13 +33,12 @@ export default {
     i {
       color: #009688;
       font-size: 28px;
-      padding: 3px 0 0 0;
     }
   }
   .txt {
     @include Flexbox(flex-start, center, row);
     h2 {
-      font: 700 24px Roboto;
+      font: 700 18px Roboto;
       color: #757575;
     }
   }
