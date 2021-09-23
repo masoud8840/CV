@@ -27,6 +27,7 @@ section {
   width: 100%;
   @include Flexbox(flex-start, center, row);
   margin: 10px 0;
+  padding: 5px 0;
   .icon {
     width: 40px;
     @include Flexbox(center, center, row);

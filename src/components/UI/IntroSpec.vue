@@ -41,15 +41,18 @@ export default {
 
 .container {
   width: 100%;
-  height: 400px;
   display: flex;
   flex-direction: column;
+
   .user-profile {
     height: 300px;
     background: url("../../assets/logo.png") center no-repeat;
     @include Flexbox(flex-end, flex-start, column);
-    background-color: lime;
     padding: 20px 10px;
+
+    p {
+      color: #757575;
+    }
   }
 }
 </style>
