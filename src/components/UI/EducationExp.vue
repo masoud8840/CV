@@ -8,9 +8,7 @@
       job-title="Islamic Azad University / Islamshahr"
       job-date="Sep 2019 - "
       :isCurrent="true"
-      >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, aliquid
-      pariatur vitae laudantium sequi praesentium sed ut dicta commodi natus
-      accusamus fugit amet.</body-item
+      >Bachelor Degree.</body-item
     >
   </section>
 </template>
