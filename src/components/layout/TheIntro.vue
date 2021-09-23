@@ -23,10 +23,9 @@ export default {
 .container {
   display: flex;
   flex-direction: column;
-  box-shadow: 0 0 20px #eee;
   background-color: #fafafa;
   padding-bottom: 20px;
-
+  margin-top: 10px;
   .end-section-roll {
     width: 95%;
     height: 1px;

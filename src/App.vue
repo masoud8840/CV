@@ -38,10 +38,10 @@ body {
   width: 100%;
   max-width: 1450px;
   height: fit-content;
-  margin: 10px auto;
+  margin: 0 auto;
   padding: 10px;
   display: grid;
-  grid-template-columns: 2fr 4fr;
+  grid-template-columns: 1.5fr 4fr;
   column-gap: 25px;
 }
 </style>

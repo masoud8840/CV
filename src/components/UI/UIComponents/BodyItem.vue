@@ -1,9 +1,9 @@
 <template>
   <section class="v-body-item">
-    <h3>awdawd</h3>
+    <h3>{{ jobTitle }}</h3>
     <div class="jobDate">
       <i class="far fa-calendar-alt"></i>
-      <p>{{ jobDate }} Jan 2018</p>
+      <p>{{ jobDate }}</p>
       <div class="badge" v-if="isCurrent">Current</div>
     </div>
     <p class="job-discription">
@@ -21,9 +21,10 @@ export default {
 <style lang="scss" scoped>
 .v-body-item {
   width: 100%;
-  padding: 0 10px;
   color: #757575;
-  padding: 10px;
+  padding: 10px 0px 15px 15px;
+  border-bottom: 1px solid #eee;
+  margin-top: 10px;
   h3 {
     display: block;
   }

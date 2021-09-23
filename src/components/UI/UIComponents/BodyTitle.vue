@@ -14,11 +14,12 @@ export default {
 <style lang="scss" scoped>
 .v-body-title {
   width: 100%;
-  height: 10vh;
+  height: 7vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
+  margin: 10px 0;
   i {
     font-size: 32px;
     padding: 10px 20px 10px 10px;

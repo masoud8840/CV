@@ -14,9 +14,8 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
-section.v-the-body {
+.v-the-body {
   margin-top: 10px;
-  padding: 10px;
-  background-color: #fafafa;
+  background-color: lime;
 }
 </style>
