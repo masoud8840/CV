@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="v-app">
     <the-intro></the-intro>
     <the-body></the-body>
   </div>
@@ -34,14 +34,18 @@ body {
   background-color: #eeeeee;
 }
 
-.container {
-  width: 100%;
+.v-app {
+  width: 95%;
   max-width: 1450px;
-  height: fit-content;
-  margin: 0 auto;
-  padding: 10px;
+  margin: 10px auto 0 auto;
   display: grid;
-  grid-template-columns: 1.5fr 4fr;
-  column-gap: 25px;
+
+  grid-template-columns: 1fr;
+  @media only screen and (min-width: 600px) {
+    & {
+      grid-template-columns: 1.7fr 4fr;
+      column-gap: 20px;
+    }
+  }
 }
 </style>

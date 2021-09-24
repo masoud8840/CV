@@ -49,11 +49,14 @@ section.container-fluid {
     background: url("../../assets/profile.jpg") center no-repeat;
     background-size: contain;
     @include Flexbox(flex-end, flex-start, column);
-    padding: 20px 10px;
+    padding: 20px 20px;
 
     p {
       color: #757575;
     }
+  }
+  .user-contact {
+    padding: 0 10px;
   }
 }
 </style>

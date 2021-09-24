@@ -29,6 +29,7 @@ footer {
   width: 100%;
   height: 120px;
   background-color: #009688;
+  margin-top: 20px;
   @include Flexbox(space-evenly, center, column);
   p {
     color: #fafafa;
