@@ -24,7 +24,7 @@
       skillName="C# .NET Core (2.2)"
       progressValue="35"
     ></skills-item>
-    <skills-item skillName="C++" progressValue="35"></skills-item>
+    <skills-item skillName="C++ (17)" progressValue="35"></skills-item>
     <skills-item skillName="Unity 3D (5)" progressValue="65"></skills-item>
 
     <h5>Generals:</h5>
