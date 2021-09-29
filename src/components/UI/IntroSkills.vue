@@ -53,6 +53,10 @@ p {
 }
 h5 {
   color: #757575;
-  margin: 30px 0 0 20px !important;
+  margin: 30px 0 0 20px;
+
+  &:nth-child(2) {
+    margin-top: 10px;
+  }
 }
 </style>
