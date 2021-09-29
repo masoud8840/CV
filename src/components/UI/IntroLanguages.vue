@@ -7,7 +7,9 @@
 
   <skills-item skillName="Persian" progressValue="100"></skills-item>
   <skills-item skillName="English" progressValue="60"></skills-item>
-  <skills-item skillName="Spanish" progressValue="5"></skills-item>
+  <skills-item skillName="Spanish" progressValue="5">
+    <p>In progress</p>
+  </skills-item>
 </template>
 
 <script>
@@ -22,4 +24,10 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+p {
+  display: block;
+  font: 400 12px Roboto;
+  text-align: right;
+  color: #757575;
+}
 </style>

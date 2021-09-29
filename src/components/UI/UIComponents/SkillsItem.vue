@@ -2,6 +2,7 @@
   <section>
     <p>{{ skillName }}</p>
     <progress :value="progressValue" max="100"></progress>
+    <slot></slot>
   </section>
 </template>
 
@@ -22,6 +23,7 @@ section {
     width: 100%;
     height: 20px;
     margin-top: 15px;
+
     &::-webkit-progress-bar {
       appearance: none;
       background-color: #f1f1f1;
