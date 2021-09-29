@@ -25,7 +25,7 @@
       progressValue="35"
     ></skills-item>
     <skills-item skillName="C++" progressValue="35"></skills-item>
-    <skills-item skillName="Unity 3D" progressValue="60"></skills-item>
+    <skills-item skillName="Unity 3D (5)" progressValue="65"></skills-item>
 
     <h5>Generals:</h5>
     <skills-item skillName="Git, Github" progressValue="60"></skills-item>
