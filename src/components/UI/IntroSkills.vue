@@ -6,7 +6,7 @@
     <skills-item skillName="SCSS" progressValue="90"></skills-item>
     <skills-item skillName="Bootstrap (5)" progressValue="90"></skills-item>
     <skills-item skillName="Javascript (ES6)" progressValue="65"></skills-item>
-    <skills-item skillName="Vue.js (3)" progressValue="25"
+    <skills-item skillName="Vue.js (3)" progressValue="65"
       ><p>In progress</p></skills-item
     >
 
@@ -14,19 +14,6 @@
     <skills-item skillName="Node.js (16.10), Express.js (4)" progressValue="20"
       ><p>In progress</p></skills-item
     >
-
-    <h5>as a Desktop Developer:</h5>
-    <skills-item
-      skillName="C# .NET Framework (4.8)"
-      progressValue="35"
-    ></skills-item>
-    <skills-item
-      skillName="C# .NET Core (2.2)"
-      progressValue="35"
-    ></skills-item>
-    <skills-item skillName="C++ (17)" progressValue="35"></skills-item>
-    <skills-item skillName="Unity 3D (5)" progressValue="65"></skills-item>
-
     <h5>Generals:</h5>
     <skills-item skillName="Git, Github" progressValue="60"></skills-item>
   </section>
