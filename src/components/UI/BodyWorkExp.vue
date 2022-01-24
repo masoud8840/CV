@@ -5,15 +5,14 @@
       job-title="Front End Developer / Freelancer"
       job-date="Jan 2021 - "
       :isCurrent="true"
-      >Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum
-      nulla exercitationem earum perferendis ipsum, adipisci dicta! Deserunt,
-      odit ab.</body-item
-    >
+      >I'm using my skills to do some practices as entertainment for myself and
+      foreign project for having income.
+    </body-item>
     <body-item
       job-title="Game Developer / brokenchair.blogfa.com"
       job-date="Jun 2018 - Sep 2018 "
-      >Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-      minus nulla provident placeat explicabo.</body-item
+      >Simple game development process i participated in it as a unity and c#
+      developer.</body-item
     >
   </section>
 </template>

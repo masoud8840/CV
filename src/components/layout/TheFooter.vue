@@ -2,16 +2,22 @@
   <footer>
     <p>find me on social media.</p>
     <div class="socialMedia">
-      <a href="https://www.instagram.com/gharedaghi.ce" title="gharedaghi.ce"
+      <a
+        href="https://www.instagram.com/gharedaghi.ce"
+        target="_blank"
+        title="gharedaghi.ce"
         ><i class="fab fa-instagram"></i
       ></a>
-      <a href="https://t.me/gharedaghi_zip" title="gharedaghi_zip"
+      <a
+        href="https://t.me/gharedaghi_zip"
+        target="_blank"
+        title="gharedaghi_zip"
         ><i class="fab fa-telegram-plane"></i
       ></a>
-      <a href="https://www.facebook.com/ce.911"
+      <a href="https://www.facebook.com/ce.911" target="_blank"
         ><i class="fab fa-facebook-f" title="ce.911"></i
       ></a>
-      <a href="https://github.com/masoud8840" title="masoud8840"
+      <a href="https://github.com/masoud8840" target="_blank" title="masoud8840"
         ><i class="fab fa-github"></i
       ></a>
     </div>
