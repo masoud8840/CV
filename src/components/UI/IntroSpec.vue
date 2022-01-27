@@ -7,6 +7,10 @@
     <div class="user-contact">
       <contact-item content="Tehran, IR" iconHRef="fas fa-home"></contact-item>
       <contact-item
+        content="03-05-2001"
+        iconHRef="fas fa-calendar-plus"
+      ></contact-item>
+      <contact-item
         content="gharedaghi.zip@gmail.com"
         iconHRef="fas fa-envelope"
       ></contact-item>
@@ -18,8 +22,6 @@
   </section>
 </template>
 
-
-
 <script>
 import ContactItem from "./UIComponents/ContactItem.vue";
 
@@ -29,7 +31,6 @@ export default {
   },
 };
 </script>
-
 
 <style lang="scss" scoped>
 @mixin Flexbox($justify, $align, $dir) {
