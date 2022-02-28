@@ -5,15 +5,14 @@
     <skills-item skillName="HTML (5), CSS (3)" progressValue="90"></skills-item>
     <skills-item skillName="SCSS" progressValue="90"></skills-item>
     <skills-item skillName="Bootstrap (5)" progressValue="90"></skills-item>
-    <skills-item skillName="Javascript (ES6)" progressValue="75"></skills-item>
-    <skills-item skillName="Vue.js (3)" progressValue="85"
-      ><p>In progress</p></skills-item
-    >
+    <skills-item skillName="Javascript (ES6)" progressValue="85"></skills-item>
+    <skills-item skillName="Vue.js (3)" progressValue="85"></skills-item>
 
     <h5>as a Back End Developer:</h5>
-    <skills-item skillName="Node.js (16.10), Express.js (4)" progressValue="10"
-      ><p>In progress</p></skills-item
-    >
+    <skills-item
+      skillName="Node.js (16.10), Express.js (4)"
+      progressValue="10"
+    ></skills-item>
     <h5>Generals:</h5>
     <skills-item skillName="Git, Github" progressValue="60"></skills-item>
   </section>
