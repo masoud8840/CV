@@ -1,0 +1,51 @@
+<template>
+  <section>
+    <section-title classHRef="far fa-keyboard" content="Skills"></section-title>
+    <h5>as a Front End Developer:</h5>
+    <skills-item skillName="HTML (5), CSS (3)" progressValue="90"></skills-item>
+    <skills-item skillName="SCSS" progressValue="90"></skills-item>
+    <skills-item skillName="Bootstrap (5)" progressValue="90"></skills-item>
+    <skills-item skillName="Javascript (ES6)" progressValue="85">
+      <p>Upgrading...</p>
+    </skills-item>
+    <skills-item skillName="Vue.js (3)" progressValue="85"></skills-item>
+
+    <h5>as a Back End Developer:</h5>
+    <skills-item
+      skillName="Node.js (16.10), Express.js (4)"
+      progressValue="10"
+    ></skills-item>
+    <h5>Generals:</h5>
+    <skills-item skillName="Git, Github" progressValue="60">
+      <p>Upgrading...</p>
+    </skills-item>
+  </section>
+</template>
+
+<script>
+import SectionTitle from "./UIComponents/SectionTitle.vue";
+import SkillsItem from "./UIComponents/SkillsItem.vue";
+
+export default {
+  components: {
+    SectionTitle,
+    SkillsItem,
+  },
+};
+</script>
+<style lang="scss" scoped>
+p {
+  display: block;
+  font: 400 12px Roboto;
+  text-align: right;
+  color: #757575;
+}
+h5 {
+  color: #757575;
+  margin: 30px 0 0 20px;
+
+  &:nth-child(2) {
+    margin-top: 10px;
+  }
+}
+</style>
