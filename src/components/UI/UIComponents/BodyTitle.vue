@@ -5,7 +5,6 @@
   </section>
 </template>
 
-
 <script>
 export default {
   props: ["iconLink", "titleTxt"],
@@ -27,7 +26,7 @@ export default {
   }
   h1 {
     font: 400 30px Roboto;
-    color: #757575;
+    color: var(--textColor);
   }
 }
 </style>

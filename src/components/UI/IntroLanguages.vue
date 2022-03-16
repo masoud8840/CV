@@ -28,6 +28,6 @@ p {
   display: block;
   font: 400 12px Roboto;
   text-align: right;
-  color: #757575;
+    color: var(--textColor);
 }
 </style>

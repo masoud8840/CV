@@ -9,7 +9,6 @@
   </section>
 </template>
 
-
 <script>
 export default {
   props: ["content", "iconHRef"],
@@ -38,7 +37,7 @@ section {
   }
   .txt {
     p {
-      color: #757575;
+      color: var(--textColor);
       font: 400 15px Roboto;
     }
   }

@@ -1,6 +1,6 @@
 <template>
   <section class="v-body-item">
-    <h3>{{ jobTitle }}</h3>
+    <h2>{{ jobTitle }}</h2>
     <div class="jobDate">
       <i class="far fa-calendar-alt"></i>
       <p>{{ jobDate }}</p>
@@ -17,16 +17,16 @@ export default {
 };
 </script>
 
-
 <style lang="scss" scoped>
 .v-body-item {
   width: 100%;
-  color: #757575;
+  color: var(--textColor);
   padding: 10px 0px 15px 15px;
   border-bottom: 1px solid #eee;
   margin-top: 10px;
-  h3 {
+  h2 {
     display: block;
+    font: 500 18px Roboto;
   }
   p {
     font: 400 15px Roboto;
@@ -53,7 +53,7 @@ export default {
   }
   .job-discription {
     line-height: 1.5rem;
-    color: #212521;
+    color: var(--textColor);
   }
 }
 </style>

@@ -39,7 +39,7 @@ export default {
     @include Flexbox(flex-start, center, row);
     h2 {
       font: 700 18px Roboto;
-      color: #757575;
+    color: var(--textColor);
     }
   }
 }

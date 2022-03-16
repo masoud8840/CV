@@ -33,6 +33,9 @@ export default {
 body {
   background-color: #eeeeee;
 }
+:root {
+  --textColor: #555555;
+}
 
 .v-app {
   width: 95%;

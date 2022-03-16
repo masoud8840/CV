@@ -2,10 +2,11 @@
   <section>
     <p>{{ skillName }}</p>
     <progress :value="progressValue" max="100"></progress>
-    <slot></slot>
+    <section class="slot-wrapper">
+      <slot></slot>
+    </section>
   </section>
 </template>
-
 
 <script>
 export default {
@@ -17,6 +18,7 @@ section {
   width: 100%;
   padding: 0 20px;
   margin-top: 15px;
+  position: relative;
   progress {
     appearance: none;
     -webkit-appearance: none;
@@ -38,7 +40,17 @@ section {
   p {
     display: block;
     font: 400 15px Roboto;
-    color: #757575;
+    color: var(--textColor);
+  }
+  .slot-wrapper {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-45%);
+    right: 10px;
+    p {
+      color: var(--textColor);
+    }
   }
 }
-</style>    
+</style>
