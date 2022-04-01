@@ -17,4 +17,4 @@ npm run serve
 ```
 
 
-[https://masoud8840.github.io/CV/](live preview)
+[live preview](https://masoud8840.github.io/CV)
