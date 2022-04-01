@@ -15,3 +15,6 @@ npm install
 ```
 npm run serve
 ```
+
+
+[https://masoud8840.github.io/CV/](live preview)
